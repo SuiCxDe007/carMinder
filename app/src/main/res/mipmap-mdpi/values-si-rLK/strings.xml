@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ModernLogin</string>
+    <string name="login_email_hint">විද්යුත් තැපෑල</string>
+    <string name="login_password_hint">මුරපදය</string>
+    <string name="email">විද්යුත් තැපෑල</string>
+    <string name="password">මුරපදය</string>
+    <string name="register">ලියාපදිංචි වන්න</string>
+    <string name="language">භාෂාව</string>
+    <string name="login">ඇතුල් වන්න</string>
+    <string name="fogot">මුරපදය අමතක වුණාද?</string>
+    <string name="welcome">"ආයුබෝවන් "</string>
+    <string name="name">නම</string>
+    <string name="confirmpass">මුරපදය තහවුරු කරන්න</string>
+    <string name="mobile">දුරකථන අංකය</string>
+    <string name="registerwithus">"Savior සමග \nලියාපදිංචි වන්න "</string>
+    <string name="registerbut">ලියාපදිංචි වන්න</string>
+    <string name="alreadyhave">දැනටමත් ලියාපදිංචි වී ඇතිද?</string>
+    <string name="dnomatch">නොගැලපේ!</string>
+    <string name="validcno">වලංගු සම්බන්ධතා අංකයක් ඇතුළත් කරන්න</string>
+    <string name="required">අවශ්‍යයි!</string>
+    <string name="validemail">වලංගු ඊ-තැපෑලක් ඇතුළත් කරන්න</string>
+    <string name="verifyemail">"විද්‍යුත් ලිපිනය සත්‍යාපනය කර නොමැත "</string>
+    <string name="verifyemaildesc">සත්‍යාපනය සඳහා කරුණාකර ඔබගේ විද්‍යුත් ලිපිනය පරීක්ෂා කරන්න.</string>
+    <string name="ok">හරි</string>
+    <string name="emailfailed">සත්‍යාපන විද්‍යුත් තැපෑල යවා නැත. කරුණාකර මොහොතකින් නැවත උත්සාහ කරන්න.</string>
+    <string name="invalidpaswsword">වැරදි මුරපදයක් හෝ විද්‍යුත් තැපෑලක් ඇතුළත් කර ඇත.නැවත උත්සහ කරන්න</string>
+    <string name="invalidpass">"මුරපදය වැරදියි "</string>
+    <string name="emailalready">විද්‍යුත් තැපෑල දැනටමත් භාවිතයේ පවතී!</string>
+    <string name="weakpassword">මුරපදයේ අවම වශයෙන් අක්ෂර 6 ක් තිබිය යුතුය!</string>
+    <string name="regsuccesstitle">ලියාපදිංචිය සාර්ථකයි!</string>
+    <string name="regsuccessdesc">ඔබගේ ගිණුම සත්‍යාපනය කිරීමට කරුණාකර ඔබගේ විද්‍යුත් ලිපිනය පරීක්ෂා කරන්න!</string>
+    <string name="wait">කරුණාකර රැඳී සිටින්න</string>
+    <string name="fogotpassword">මුරපදය නැවත ලබා ගන්න</string>
+    <string name="recoverpassword">"ඔබගේ ගිණුමේ මුරපදය යලි පිහිටුවීමට Savior සමග සම්බන්ද කර ඇති විද්‍යුත් තැපෑල ලබා දෙන්න "</string>
+    <string name="resetpasswordbut">මුරපදය යළි පිහිටුවන්න</string>
+    <string name="emailsentdesc">ඔබගේ විද්‍යුත් තැපැල් ලිපිනයට යවන ලද සබැඳිය භාවිතා කර ඔබගේ මුරපදය නැවත සකසන්න.</string>
+    <string name="emailsent">විද්‍යුත් තැපෑල යවන ලදි!</string>
+    <string name="notregistered">ඇතුළත් කළ විද්‍යුත් ලිපිනය Savior සමග ලියාපදිංචි වී නොමැත</string>
+</resources>

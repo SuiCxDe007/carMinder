@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">carMinder</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome </string>
+    <string name="fogot">Fogot Password?</string>
+    <string name="language">Change Language</string>
+    <string name="login">Login</string>
+    <string name="register">New user? Register Here</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="dnomatch">Does not Match!</string>
+    <string name="validemail">Enter a Valid Email</string>
+    <string name="validcno">Enter Valid Contact Number</string>
+
+    <string name="required">Required!</string>
+    <string name="collection_users" translatable="false">Users</string>
+    <string name="registerwithus">Register \nWith carMinder </string>
+    <string name="registerbut">Register</string>
+    <string name="alreadyhave">Already Have an Account?</string>
+
+    <string name="verifyemail">Email Not Verified!</string>
+    <string name="verifyemaildesc">Please Check your Email for Verification.</string>
+    <string name="ok">OK</string>
+    <string name="emailfailed">Verfication Email Not sent.Please Try Again in a moment.</string>
+    <string name="invalidpaswsword">Invalid Password or Email Please Re-Check Your Credentials!</string>
+    <string name="invalidpass">Invalid Password!</string>
+    <string name="emailalready">Email Already In Use!</string>
+    <string name="weakpassword">The password is invalid it must 6 characters at least!</string>
+
+    <string name="regsuccesstitle">Registration Successful!</string>
+    <string name="regsuccessdesc">Please Check your Email to Verify Your Account!</string>
+    <string name="wait">Please Wait</string>
+    <string name="fogotpassword">Recover Password</string>
+    <string name="recoverpassword">Please Enter Your Email Associated with carMinder to Send the Password Reset Confirmation Email</string>
+    <string name="resetpasswordbut">Reset Password</string>
+    <string name="emailsent">Email Sent!</string>
+    <string name="emailsentdesc">Reset Your Password using the Link sent to your Email.</string>
+    <string name="notregistered">Entered Email is not Registered with carMinder</string>
+    <string name="addvehicle">Add Vehicle</string>
+    <string name="addvehidesc">Register a New Vehicle</string>
+    <string name="viewvehicle">View Vehicles</string>
+    <string name="viewvehidesc">View/Update Vehicle Log</string>
+    <string name="savedsuccess">Vehicle Saved Successfully!</string>
+    <string name="savedsuccessdesc">Vehicle Has Been Added Successfully.You will be reminded on the Required Dates.</string>
+    <string name="savefailed">Saving Failed!</string>
+    <string name="savefaileddesc">Error Has Occured.Please Try Again!</string>
+    <string name="addnewvehicle">Add New Vehicle</string>
+    <string name="carname">Vehicle Name</string>
+    <string name="vehicleservice">Vehicle Service Info</string>
+    <string name="servicedate">Last Service Date</string>
+    <string name="nextservice">Next Service Due Date</string>
+    <string name="date">Date</string>
+    <string name="engineoilinfo">Engine Oil Info</string>
+    <string name="lastengineoil">Last Engine Oil Change Date</string>
+    <string name="nextoilchange">Next Engine Oil Change Due Date</string>
+    <string name="oilfilter">Engine Oil Filter Info</string>
+    <string name="oilfilterx">Last Engine Oil Filter Change Date</string>
+    <string name="nextoilfilterx">Next Engine Oil Filter Due Date</string>
+    <string name="save">Save</string>
+    <string name="vehicleviewdesc">Click On A Vehicle To View or Update Info</string>
+    <string name="updatevehicle">Update Vehicle Info</string>
+    <string name="markasdone">Mark As Done</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="warning">Warning!</string>
+    <string name="fillfields">Please Fill Fields To Update Vehicle Information.</string>
+    <string name="delvehicledesc">Please Confirm to Delete Vehicle.Note that this Action is Irreversible</string>
+    <string name="delvehi">Delete Vehicle</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="success">Success!</string>
+    <string name="succesdesc">Vehicle Deleted Successfully!</string>
+
+    <string name="passerror">Error Occured</string>
+    <string name="passnotmatch"><font fgcolor="#7F0000">Passwords Does Not Match!</font></string>
+    <string name="passmatch"><font fgcolor="#00bfa5"> Passwords Match!</font></string>
+    <string name="passupdated">Password Updated Successfully!</string>
+    <string name="succef">Updated successfully!</string>
+    <string name="updatename">Enter New Name</string>
+    <string name="newpass">Enter New Password</string>
+    <string name="delacc">DELETE ACCOUNT</string>
+    <string name="accinfo">Account Info</string>
+    <string name="accdel">Confirm Account Deletion</string>
+    <string name="accdeldesc">Following Action will delete your Account Permanently!/nThis Action is Irreversible! </string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="logout">Logout</string>
+    <string name="logoutdesc">See You Later!</string>
+    <string name="servicevehip1">Your Vehicle</string>
+    <string name="servicevehip2">is Required to Be Serviced. If you have already Serviced the Vehicle Please Update carMinder.</string>
+    <string name="novehicles">You Have not Added And Vehicles to carMinder. Please Add Vehicles from Dashboard to Continue.</string>
+    <string name="airfilterinfo">Air Filter Info</string>
+    <string name="airfilterchange">Last Air Filter Changed Date</string>
+    <string name="airfilternet">Next Air Filter Change Due Date</string>
+    <string name="sendreport">Send Report</string>
+    <string name="reportsentdesc">Report Sent Successfully Via Email!</string>
+    <string name="error">Error Occured!</string>
+    <string name="errordesc">Please Try Again in  a Moment.</string>
+    <string name="sendreportt">Maintainance Report Format</string>
+    <string name="sendreportdescc">Maintainance Report Will be sent to Provided Email in the Following Format.Please Enter the Email when Requested.</string>
+</resources>

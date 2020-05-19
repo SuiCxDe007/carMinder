@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activities.EditCarActivityt">
+
+
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollFeed"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        android:background="@drawable/centre_background"
+        android:focusableInTouchMode="true">
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/personalDetailsCard"
+            style="@style/centreLocatorCardDesign"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:paddingBottom="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="false"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/updatevehicle"
+    android:textSize="20dp"
+  android:layout_gravity="center"></TextView>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/txtInputEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:id="@+id/cname"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/carname" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+
+        android:textColor="@color/black"
+        android:text="@string/vehicleservice">
+
+    </TextView>
+
+    <TextView
+android:layout_toStartOf="@+id/servicecheckbox"
+        android:id="@+id/t2"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:text="@string/markasdone">
+
+    </TextView>
+    <net.igenius.customcheckbox.CustomCheckBox
+android:layout_marginRight="10sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/servicecheckbox"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+
+        app:color_checked="#00BCD4"
+        app:color_tick="#FFFFFF"
+        app:color_unchecked="@color/colorAccent"
+        app:color_unchecked_stroke="#27FF01"
+        app:small_tick="false" />
+</RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/kj"
+                   android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:textColor="@drawable/edit_text_selector"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:id="@+id/servicetext"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/servicedate"
+                        android:inputType="text" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:textSize="10sp"
+                        android:background="@drawable/date_buytton"
+                        android:id="@+id/servicesdate"
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:textColor="#200B0B"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:text="@string/date" />
+                </LinearLayout>     <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/kj7"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:textColor="@drawable/edit_text_selector"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:id="@+id/nextservicetext"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/nextservice"
+                        android:inputType="text" /></com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:textSize="10sp"
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:background="@drawable/date_buytton"
+                        android:id="@+id/nextservicebutton"
+
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:text="@string/date" />
+
+
+</LinearLayout>
+                <RelativeLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/engineoilinfo"
+
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_toStartOf="@id/oilcheckbox"
+                        android:layout_marginLeft="25sp"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:layout_marginRight="10dp"
+
+                        android:textColor="@color/black"
+                        android:text="@string/markasdone">
+
+                    </TextView>
+                    <net.igenius.customcheckbox.CustomCheckBox
+android:layout_alignParentRight="true"
+                        android:id="@+id/oilcheckbox"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_margin= "10sp"
+                        android:layout_marginRight="1dp"
+                        app:color_checked="#00BCD4"
+                        app:color_tick="#FFFFFF"
+                        app:color_unchecked="@color/colorAccent"
+                        app:color_unchecked_stroke="#27FF01"
+                        app:small_tick="false" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/kj37"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:textColor="@drawable/edit_text_selector"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:id="@+id/eoildatetext"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/lastengineoil"
+                        android:inputType="text" /></com.google.android.material.textfield.TextInputLayout>
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:textSize="10sp"
+android:background="@drawable/date_buytton"
+                        android:text="@string/date"
+                        android:id="@+id/eoildate"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date" /> </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/kj733"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:textColor="@drawable/edit_text_selector"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:id="@+id/nextoilchange"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/nextoilchange"
+                        android:inputType="text" /></com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:textSize="10sp"
+                        android:background="@drawable/date_buytton"
+                        android:id="@+id/nextoilchangebutton"
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:text="@string/date" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_marginTop="13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+
+                        android:textColor="@color/black"
+                        android:text="@string/oilfilter">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:layout_marginRight="10dp"
+android:layout_toStartOf="@id/oilfiltercheckbox"
+                        android:textColor="@color/black"
+                        android:text="@string/markasdone">
+
+                    </TextView>
+                    <net.igenius.customcheckbox.CustomCheckBox
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/oilfiltercheckbox"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_margin= "10sp"
+                        app:color_checked="#00BCD4"
+                        app:color_tick="#FFFFFF"
+                        app:color_unchecked="@color/colorAccent"
+                        app:color_unchecked_stroke="#27FF01"
+                        app:small_tick="false" />
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/kj31d7"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:textColor="@drawable/edit_text_selector"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:id="@+id/oilfiltertext"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/oilfilterx"/></com.google.android.material.textfield.TextInputLayout>
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:background="@drawable/date_buytton"
+                        android:text="@string/date"
+                        android:textSize="10sp"
+                        android:id="@+id/oilfilterdate"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/sakj7"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    <EditText
+                        android:textColor="@drawable/edit_text_selector"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:id="@+id/nextoilfilter"
+                        style="@style/modifiedEditText"
+                        android:hint="@string/nextoilfilterx"
+                        android:inputType="text" /></com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:textSize="10sp"
+                        android:id="@+id/nextoilfilterbutton"
+                     android:background="@drawable/date_buytton"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:text="@string/date" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_marginTop="13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+
+                        android:textColor="@color/black"
+                        android:text="@string/airfilterinfo">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toStartOf="@id/airfiltercheckbox"
+                        android:textColor="@color/black"
+                        android:text="@string/markasdone">
+
+                    </TextView>
+
+                    <net.igenius.customcheckbox.CustomCheckBox
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/airfiltercheckbox"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_margin="10sp"
+                        app:color_checked="#00BCD4"
+                        app:color_tick="#FFFFFF"
+                        app:color_unchecked="@color/colorAccent"
+                        app:color_unchecked_stroke="#27FF01"
+                        app:small_tick="false" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/kj3gh1d7"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:textColor="@drawable/edit_text_selector"
+                            android:enabled="false"
+                            android:layout_weight="1"
+                            android:id="@+id/airfiltertext"
+                            style="@style/modifiedEditText"
+                            android:hint="@string/airfilterchange" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:background="@drawable/date_buytton"
+                        android:text="@string/date"
+                        android:textSize="10sp"
+                        android:id="@+id/airfilterdate"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        android:id="@+id/sakgj7"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:textColor="@drawable/edit_text_selector"
+                            android:enabled="false"
+                            android:layout_weight="1"
+                            android:id="@+id/nextairfilter"
+                            style="@style/modifiedEditText"
+                            android:hint="@string/airfilternet"
+                            android:inputType="text" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="30sp"
+                        android:textSize="10sp"
+                        android:id="@+id/nextairfilterbutton"
+                        android:background="@drawable/date_buytton"
+                        android:layout_alignBottom="@+id/in_date"
+                        android:layout_toEndOf="@+id/in_date"
+                        android:layout_toRightOf="@+id/in_date"
+                        android:text="@string/date" />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <Button
+                        android:layout_marginTop="20sp"
+                        android:id="@+id/delbutton"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/delbutton"
+                        android:text="@string/delete"
+                        android:layout_alignParentLeft="true"
+                        android:textColor="@color/whiteTextColor" />
+
+
+                    <Button
+                        android:layout_marginTop="20sp"
+                        android:id="@+id/emailbut"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/centre_button"
+                        android:text="@string/sendreport"
+                        android:layout_toEndOf="@id/delbutton"
+                        android:layout_marginLeft="40dp"
+                        android:textColor="@color/whiteTextColor" />
+
+
+                    <Button
+                        android:layout_marginTop="20sp"
+                        android:id="@+id/submitbut"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/centre_button"
+                        android:text="@string/update"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/whiteTextColor" />
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

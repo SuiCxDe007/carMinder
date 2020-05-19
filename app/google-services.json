@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441409464468",
+    "firebase_url": "https://carminder-5582b.firebaseio.com",
+    "project_id": "carminder-5582b",
+    "storage_bucket": "carminder-5582b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441409464468:android:c72f173b574ee488036c81",
+        "android_client_info": {
+          "package_name": "com.suicxde.carminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441409464468-p8326h5e1ufo4a16rbbktrjie0c5v7q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMN6yKmIWp0PC_L69AJkqyoXJO8DmtGZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441409464468-p8326h5e1ufo4a16rbbktrjie0c5v7q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

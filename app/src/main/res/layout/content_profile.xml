@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            style="@style/headerText"
+            android:text="@string/accinfo"
+            android:layout_marginBottom="20dp"/>
+
+        <RelativeLayout style="@style/profileDetailsLayout"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:id="@+id/updatename">
+            <ImageView
+                android:id="@+id/nameImageView"
+                android:src="@drawable/nameico"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:text="@string/name"
+                android:layout_toRightOf="@id/nameImageView"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/firename"
+                android:text=""
+                android:layout_toRightOf="@id/nameImageView"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/tpupdate"
+            android:onClick="onClick">
+            <ImageView
+                android:id="@+id/mobileImageView"
+                android:src="@drawable/mobileio"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="@string/mobile"
+                android:layout_toRightOf="@id/mobileImageView"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/firetp"
+                android:text=""
+                android:layout_toRightOf="@id/mobileImageView"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout"
+            android:onClick="onClick"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/emaillayout">
+            <ImageView
+                android:id="@+id/emailImageView"
+                android:src="@drawable/emailico"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="@string/email"
+                android:layout_toRightOf="@id/emailImageView"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/fireemail"
+                android:text=""
+                android:layout_toRightOf="@id/emailImageView"
+                style="@style/profileDetailsMiniText" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView2" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+
+                    android:id="@+id/changepass"
+                    style="@style/profileStyledBackButton2"
+                    android:text="@string/password"
+                    android:textColor="@color/white"></Button><View
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+                <Button
+                    android:clickable="true"
+                    android:id="@+id/langbutton"
+                    style="@style/profileStyledBackButton2"
+                    android:text="@string/language"
+                    android:textColor="@color/white"></Button>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <View style="@style/proifleDetailsView2" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            ><Button
+
+            android:id="@+id/testbtn"
+            style="@style/profileStyledBackButton3"
+            android:text="@string/delacc"
+            android:textColor="@color/white"></Button></RelativeLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ModernLogin</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome </string>
+    <string name="fogot">Fogot Password?</string>
+    <string name="language">Change Language</string>
+    <string name="login">Login</string>
+    <string name="register">New user? Register Here</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="dnomatch">Does not Match!</string>
+    <string name="validemail">Enter a Valid Email</string>
+    <string name="validcno">Enter Valid Contact Number</string>
+
+    <string name="required">Required!</string>
+    <string name="collection_users" translatable="false">Users</string>
+    <string name="collection_user_locations" translatable="false">User Locations</string>
+    <string name="google_maps_api_key" translatable="false">AIzaSyCps5DVjHRiQ3xBB8Dj2smdLK4Y_CFYjUE</string>
+    <string name="registerwithus">Register \nWith Savior </string>
+    <string name="registerbut">Register</string>
+    <string name="alreadyhave">Already Have an Account?</string>
+
+    <string name="verifyemail">Email Not Verified!</string>
+    <string name="verifyemaildesc">Please Check your Email for Verification.</string>
+    <string name="ok">OK</string>
+    <string name="emailfailed">Verfication Email Not sent.Please Try Again in a moment.</string>
+    <string name="invalidpaswsword">Invalid Password or Email Please Re-Check Your Credentials!</string>
+    <string name="invalidpass">Invalid Password!</string>
+    <string name="emailalready">Email Already In Use!</string>
+    <string name="weakpassword">The password is invalid it must 6 characters at least!</string>
+
+    <string name="regsuccesstitle">Registration Successful!</string>
+    <string name="regsuccessdesc">Please Check your Email to Verify Your Account!</string>
+    <string name="wait">Please Wait</string>
+    <string name="fogotpassword">Recover Password</string>
+    <string name="recoverpassword">Please Enter Your Email Associated with Savior to Send the Password Reset Confirmation Email</string>
+    <string name="resetpasswordbut">Reset Password</string>
+    <string name="emailsent">Email Sent!</string>
+    <string name="emailsentdesc">Reset Your Password using the Link sent to your Email.</string>
+    <string name="notregistered">Entered Email is not Registered with Savior</string>
+</resources>
